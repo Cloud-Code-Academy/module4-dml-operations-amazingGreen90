@@ -243,7 +243,7 @@ public with sharing class DMLOperationsTest {
 			System.assertEquals(c.LastName, c.Account.Name, 'Contact last name should match Account name');
 		}
 	}
-    
+
     @IsTest
     static void testInsertAndDeleteLeads() {
         // Prepare the Lead names
